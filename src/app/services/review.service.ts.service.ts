@@ -46,10 +46,10 @@ export class ReviewService {
   public BASE_URL_BY_FACILITY = 'http://localhost:8080/api/overview/findCovid19OverallPositivityByFacility';
 
   // Enrollment --// 
-  public BASE_URLE1 = 'http://localhost:8080/api/covid19/enrollment/findByGender';
-  public BASE_URLE2 = 'http://localhost:8080/api/covid19/enrollment/findByAgeGender';
-  public BASE_URLE3 = 'http://localhost:8080/api/covid19/enrollment/findByFacility';
-  public BASE_URLE4 = 'http://localhost:8080/api/covid19/enrollment/findOverTime';
+  public BASE_URLE1 = 'http://localhost:8080/api/covid19/enrolment/findByGender';
+  public BASE_URLE2 = 'http://localhost:8080/api/covid19/enrolment/findByAgeGender';
+  public BASE_URLE3 = 'http://localhost:8080/api/covid19/enrolment/findByFacility';
+  public BASE_URLE4 = 'http://localhost:8080/api/covid19/enrolment/findOverTime';
 
   //Screening --//
   public BASE_URLES1 = 'http://localhost:8080/api/covid19/screening/findCascade';
